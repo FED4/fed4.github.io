@@ -1,0 +1,163 @@
+/* Global styles
+------------------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+a {
+    color: #EF233C;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.top {
+  margin: 0 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A2D42;
+}
+
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+header h1,
+header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+/* Header styles only */
+header {
+  /*text-align: center;*/
+}
+.profile-img {
+  /* width: 300px;
+  height: 250px; */
+  border-radius: 0%;
+  float: left;
+  margin-top: 2rem;
+  /*margin-right: 30px;*/
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #EDF2F4;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #8D99AE;
+}
+
+		.right-li{
+			list-style-type: none;/* 去掉li前的点 */
+			float: right;/*将li设置成做浮动，变为联动*/
+		}
+    .left-li{
+			list-style-type: none;/* 去掉li前的点 */
+			float: left;/*将li设置成做浮动，变为联动*/
+		}
+		.navi{
+			display: block;/*将a变成块状*/
+			width: 150px;/*设置块的宽度*/
+			height: 50px;/*设置块的长度*/
+			font-family: 'Open Sans', sans-serif;
+			line-height: 50px;/*设置字体在块中的高度*/
+			background-color: #2B2E43;
+			margin: 0px 0px;/*块里的高宽通过margin设置*/
+			text-align: center;/*字体居中*/
+      color: white;
+			text-decoration: none;/*去掉下划线*/
+			font-size: 15px;
+		}
+    .navi2{
+			display: block;/*将a变成块状*/
+			width: 200px;/*设置块的宽度*/
+			height: 50px;/*设置块的长度*/
+			font-family: 'Open Sans', sans-serif;
+			line-height: 50px;/*设置字体在块中的高度*/
+			background-color: #2A2D42;
+			margin: 0px 0px;/*块里的高宽通过margin设置*/
+			text-align: center;/*字体居中*/
+      color: white;
+			text-decoration: none;/*去掉下划线*/
+			font-size: 20px;
+		}
+		.navi:hover{
+			background-color: #8D99AE;
+		}
+
+
+    #div1{text-align: left;width: 1080px;height: 300px;}
+    	.div2{
+        height: 270px;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.div2 img{
+  width:100%;
+}
