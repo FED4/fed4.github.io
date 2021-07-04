@@ -77,6 +77,13 @@ h2 {
   min-height: 175px;
 }
 
+.column-txt11 {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+  color: #2A2D42;
+}
+
 
 /* Header & Footer
 ------------------------------------*/
@@ -187,4 +194,9 @@ footer {
   text-align: center;
   position: relative;
   margin:auto auto;
+}
+
+.dark{
+  background: #2B2D42;
+  color: #8D99AE;
 }
